@@ -12,6 +12,6 @@ jobs:
       with:
         java-version: 1.8
     - run: mvn --batch-mode verify
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         path: target/icalendar-validator-*-jar-with-dependencies.jar
